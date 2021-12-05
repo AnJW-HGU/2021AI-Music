@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        {% if result['genre'] and result['selectNumber'] %}
+        {{ result.genre }}.000{{ result.selectNumber }}.wav
+        {% endif %}
+    </body>
+</html>
